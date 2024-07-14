@@ -1,46 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
    <meta charset="UTF-8">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <title>samarthya's login page</title>
 </head>
 <style>
-   body{background-image:url(https://t3.ftcdn.net/jpg/02/97/22/02/360_F_297220232_rF6PANrOxnXc5Nb1PBfOrqPXmVf8r1OZ.jpg);background-size: cover;background-repeat: no-repeat;margin-bottom: 25%;height: 100vh;}
+   body {
+      background-image: url(https://t3.ftcdn.net/jpg/02/97/22/02/360_F_297220232_rF6PANrOxnXc5Nb1PBfOrqPXmVf8r1OZ.jpg);
+      background-size: cover;
+      background-repeat: no-repeat;
+      margin-bottom: 25%;
+      max-height: 100vh;
+      background-position: 0 -100px;
+   }
 </style>
-<body>
-  
-   <fieldset style="width: 25%; margin-left:35%;margin-top: 10%;height: 10%; background-image: linear-gradient(orange, yellow);border: 2px solid black;height:40%;">
-      <legend style="text-align: center; border:2px solid brown;background-color: aqua;"><b><i>LOGIN</i></b></legend>
-   <form action="result.html" method="get" style="text-align: center;">
-      <label for="username" style="margin-top: 4%;"><b>user name</b></label>
-   <input type="text" id="username" required placeholder="enter your name">
-   <br><br>
-   <label for="pass"><b>password (minimum 6 characters)</b></label>
-   <input type="password" name="password block" id="pass" minlength="6" required placeholder="minimum 6 character">
-   <br><br>
-   <label for="email id"><b>email-id</b></label>
-   <input type="email" required placeholder="email id">
-   <br><br>
-   <label for="gen"><b>gender:</b></label>
-   <label for="mgen">male</label>
-   <input type="radio" name="gender box" id="mgen" value="male" name="gender"  required >
-   <label for="fgen" style="margin-left: 1%">female</label>
-   <input type="radio" name="gender box" id="fgen" value="female" name="gender" required>
-   <label for="ogen" style="margin-left: 1%">others</label>
-   <input type="radio" value="others" id="ogen"  name="gender box" required>
-   <br><br> 
-  <label><i>Want extra updates on email:</i></label>
-<label for="updates_yes" style="margin-left: 1%"><i>Yes</i></label>
-<input type="radio" id="updates_yes" name="updates" value="yes" required>
-<label for="updates_no" style="margin-left: 1%"><i>No</i></label>
-<input type="radio" id="updates_no" name="updates" value="no" required>
 
-   <br><br>
-   <button>
-   <input type="submit" value="submit"></button>
-   
-   </form>
-</fieldset>
+<body>
+
+   <fieldset
+      style="width: 25%; margin-left:35%;margin-top: 10%;height: 10%; background-image: linear-gradient(orange, yellow);border: 2px solid black;height:40%;">
+      <legend style="text-align: center; border:2px solid brown;background-color: aqua;"><b><i>LOGIN</i></b></legend>
+      <form action="result.html" method="get" style="text-align: center;">
+         <label for="username" style="margin-top: 4%;"><b>user name</b></label>
+         <input type="text" id="username" required placeholder="enter your name">
+         <br><br>
+         <label for="pass"><b>password (minimum 6 characters)</b></label>
+         <input type="password" name="password block" id="pass" minlength="6" required
+            placeholder="minimum 6 character">
+         <br><br>
+         <label for="email id"><b>email-id</b></label>
+         <input type="email" required placeholder="email id">
+         <br><br>
+         <label for="gen"><b>gender:</b></label>
+         <label for="mgen">male</label>
+         <input type="radio" name="gender box" id="mgen" value="male" name="gender" required>
+         <label for="fgen" style="margin-left: 1%">female</label>
+         <input type="radio" name="gender box" id="fgen" value="female" name="gender" required>
+         <label for="ogen" style="margin-left: 1%">others</label>
+         <input type="radio" value="others" id="ogen" name="gender box" required>
+         <br><br>
+         <label><i>Want extra updates on email:</i></label>
+         <label for="updates_yes" style="margin-left: 1%"><i>Yes</i></label>
+         <input type="radio" id="updates_yes" name="updates" value="yes" required>
+         <label for="updates_no" style="margin-left: 1%"><i>No</i></label>
+         <input type="radio" id="updates_no" name="updates" value="no" required>
+
+         <br><br>
+         <button>
+            <input type="submit" value="submit"></button>
+
+      </form>
+   </fieldset>
 </body>
+
 </html>
